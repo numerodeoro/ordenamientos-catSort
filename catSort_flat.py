@@ -47,7 +47,3 @@ def catSort(lista):
     for i, frecuencia in enumerate(frecuencias):
         catSortedList.extend([categorias[i]]*frecuencia)
     return(catSortedList)
-
-lista = [1,2,2,1.5,5.4,"a", 1, 1.5, "A", "hola", "HOla", "á"]
-listaordenada=catSort(lista)
-print(listaordenada)
